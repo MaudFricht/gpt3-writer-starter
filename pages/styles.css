@@ -14,7 +14,7 @@ body {
     display: flex;
     place-content: center flex-start;
     align-items: center;
-    background-color: #FFE3B3;
+    background-color: #fff8eb;
     flex-flow: column nowrap;
     gap: 10px;
     height: 100vh;
@@ -283,7 +283,7 @@ textarea {
 }
 
 .output {
-    background-color: #fff8fe;
+    background-color: #FFE3B3;
     margin-top: 50px;
     place-content: center flex-start;
     align-items: center;
