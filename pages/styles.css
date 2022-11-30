@@ -127,9 +127,7 @@ textarea {
     display: flex;
     place-content: center;
     align-items: center;
-    justify-content: flex-end;
     flex: 0 0 auto;
-    flex-flow: row nowrap;
     gap: 12px;
     height: min-content;
     overflow: hidden;
@@ -172,7 +170,7 @@ textarea {
 .generate-button {
     place-content: flex-start;
     align-items: flex-start;
-    background-color: rgb(255, 79, 18);
+    background-color: rgb(76, 185, 181);
     border-radius: 100px;
     display: flex;
     flex: 0 0 auto;
@@ -183,7 +181,6 @@ textarea {
     padding: 16px 24px;
     position: relative;
     text-decoration: none;
-    width: min-content;
     will-change: transform;
     cursor: pointer;
 }
