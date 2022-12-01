@@ -36,7 +36,7 @@ const Home = () => {
   return (
     <div className="root">
       <Head>
-        <title>GPT-3 Writer | buildspace</title>
+        <title>Comme la Fontaine - Création de fables originales</title>
       </Head>
       <div className="container">
         <div className="header">
@@ -44,14 +44,14 @@ const Home = () => {
             <h1>Ma fable comme La Fontaine</h1>
           </div>
           <div className="header-subtitle">
-            <h2>Choisi deux ou trois animaux et obtient ta fable personnalisée.</h2>
+            <h2>Choisi <strong>deux ou trois animaux</strong> et obtient ta fable personnalisée.</h2>
           </div>
         </div>
 
         <div className="prompt-container">
           <textarea
           className="prompt-box"
-          placeholder="Choisi tes personnages"
+          placeholder="Entre tes personnages ici. Tu peux leur donner un nom. Ex: Jean-Marc le loup et Corine la souris"
           value={userInput}
           onChange={onUserChangedText}/>
         </div>
@@ -78,18 +78,6 @@ const Home = () => {
             </div>
           </div>
         )}
-      </div>
-      <div className="badge-container grow">
-        <a
-          href="https://buildspace.so/builds/ai-writer"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <div className="badge">
-            <Image src={buildspaceLogo} alt="buildspace logo" />
-            <p>build with buildspace</p>
-          </div>
-        </a>
       </div>
     </div>
   );
